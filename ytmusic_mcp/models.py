@@ -1,0 +1,62 @@
+from enum import Enum
+
+class SearchFilter(str, Enum):
+    SONGS = "songs"
+    ALBUMS = "albums"
+    ARTISTS = "artists"
+    PLAYLISTS = "playlists"
+    VIDEOS = "videos"
+
+class PlaylistActions(str, Enum):
+    CREATE = "create"
+    RENAME = "rename"
+    DELETE = "delete"
+    DUPLICATE = "duplicate"
+    MERGE = "merge"
+    CLEAR = "clear"
+    UPDATE_DESCRIPTION = "update_description"
+    REMOVE_DUPLICATES = "remove_duplicates"
+    REMOVE_UNAVAILABLE = "remove_unavailable"
+    CLEANUP_ALL = "cleanup_all"
+    ADD_SONG = "add_song"
+    REMOVE_SONG = "remove_song"
+
+class FileFormat(str, Enum):
+    CSV = "csv"
+    JSON = "json"
+    TXT = "txt"
+    EXCEL = "excel"
+
+class LibraryActions(str, Enum):
+    LIKE = "like"
+    UNLIKE = "unlike"
+    SAVE_ALBUM = "save_album"
+    REMOVE_ALBUM = "remove_album"
+    FOLLOW_ARTIST = "follow_artist"
+    UNFOLLOW_ARTIST = "unfollow_artist"
+    LIST_LIKED_SONGS = "list_liked_songs"
+
+class BrowseActions(str, Enum):
+    LIST_PLAYLISTS = "list_playlists"
+    GET_PLAYLIST_TRACKS = "get_playlist_tracks"
+    GET_SONG_DETAILS = "get_song_details"
+    GET_LYRICS = "get_lyrics"
+    GET_SONG_CREDITS = "get_song_credits"
+    GET_RELATED_SONGS = "get_related_songs"
+    GET_ARTIST = "get_artist"
+    GET_ARTIST_ALBUMS = "get_artist_albums"
+    GET_ALBUM = "get_album"
+    GET_CHARTS = "get_charts"
+    GET_MOOD_CATEGORIES = "get_mood_categories"
+    GET_MOOD_PLAYLISTS = "get_mood_playlists"
+    GET_HOME_FEED = "get_home_feed"
+    GET_HISTORY = "get_history"
+    GET_LIBRARY_ALBUMS = "get_library_albums"
+    GET_LIBRARY_ARTISTS = "get_library_artists"
+    GET_LIBRARY_SONGS = "get_library_songs"
+    GET_LIBRARY_SUBSCRIPTIONS = "get_library_subscriptions"
+    GET_ACCOUNT_INFO = "get_account_info"
+    GET_WATCH_PLAYLIST = "get_watch_playlist"
+    GET_SEARCH_SUGGESTIONS = "get_search_suggestions"
+    GET_LIBRARY_PODCASTS = "get_library_podcasts"
+    GET_PODCAST_EPISODES = "get_podcast_episodes"
