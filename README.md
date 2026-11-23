@@ -4,7 +4,6 @@
 [![Model Context Protocol](https://img.shields.io/badge/MCP-Standard-8A2BE2.svg?style=flat)](https://modelcontextprotocol.io/)
 [![FastMCP](https://img.shields.io/badge/FastMCP-Server-00C7B7.svg?style=flat)](https://github.com/jlowin/fastmcp)
 [![YouTube Music](https://img.shields.io/badge/YouTube_Music-API-FF0000.svg?style=flat&logo=youtubemusic&logoColor=white)](https://music.youtube.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
 
 > **Turn Claude Desktop into your personal AI music manager.**  
 > Seamlessly control YouTube Music through natural conversation — search tracks, curate playlists, fetch lyrics, clean duplicates, analyze listening habits, import/export libraries, and discover personalized music recommendations.
